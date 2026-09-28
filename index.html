@@ -1,356 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Happy Birthday Zahra 🎂</title>
-
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Georgia, "Times New Roman", serif;
-  background: linear-gradient(135deg, #120b12, #3a1726, #160d18);
-  color: #fff;
-  text-align: center;
-  min-height: 100vh;
-}
-
-.screen {
-  min-height: 100vh;
-  padding: 35px 18px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.card {
-  width: min(900px, 100%);
-  background: rgba(255,255,255,.08);
-  border: 1px solid rgba(255,255,255,.18);
-  border-radius: 28px;
-  padding: 35px 20px;
-  box-shadow: 0 20px 60px rgba(0,0,0,.4);
-  backdrop-filter: blur(12px);
-}
-
-h1 {
-  font-size: clamp(42px, 10vw, 80px);
-  margin: 10px 0;
-}
-
-h2 {
-  font-size: 30px;
-  margin-top: 35px;
-}
-
-p {
-  font-family: Arial, sans-serif;
-  line-height: 1.8;
-  font-size: 17px;
-}
-
-.gold {
-  color: #f6d58a;
-}
-
-button {
-  border: 0;
-  border-radius: 50px;
-  padding: 16px 28px;
-  margin-top: 25px;
-  font-size: 17px;
-  font-weight: bold;
-  cursor: pointer;
-  background: linear-gradient(135deg, #f6d58a, #d99b5f);
-  color: #27141a;
-  box-shadow: 0 8px 25px rgba(0,0,0,.3);
-}
-
-button:active {
-  transform: scale(.96);
-}
-
-#surprise {
-  display: none;
-}
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 14px;
-  margin-top: 20px;
-}
-
-.gallery img {
-  width: 100%;
-  aspect-ratio: 4 / 5;
-  height: auto;
-  object-fit: cover;
-  border-radius: 18px;
-  border: 2px solid rgba(246,213,138,.5);
-  cursor: pointer;
-}
-
-.wishes {
-  text-align: left;
-  max-width: 720px;
-  margin: auto;
-}
-
-.wishes p {
-  margin: 14px 0;
-}
-
-.heart {
-  font-size: 42px;
-  animation: pulse 1.5s infinite;
-}
-
-@keyframes pulse {
-  50% { transform: scale(1.18); }
-}
-
-@media(max-width:600px) {
-  .gallery {
-    grid-template-columns: 1fr;
-  }
-
-  .gallery img {
-    height: 300px;
-  }
-
-  .card {
-    padding: 28px 15px;
-  }
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090607">
+  <title>Zahra — A Celebration</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="luxury-page">
 
-<!-- OPENING -->
-<section class="screen" id="opening">
-  <div class="card">
-    <div class="heart">💗</div>
+<div class="grain"></div>
 
-    <p class="gold">A little surprise made especially for</p>
+<header class="nav">
+  <a href="index.html" class="logo">Z</a>
 
-    <h1>Zahra</h1>
+  <nav>
+    <a href="birthday.html">Birthday</a>
+    <a href="memories.html">Memories</a>
+    <a href="letter.html">Letter</a>
+    <a href="duas.html">Duas</a>
+    <a href="wishes.html">Wishes</a>
+  </nav>
+</header>
 
-    <p>
-      Today isn't just another day...  
-      It's the day a beautiful soul came into this world. ✨
-    </p>
+<main class="hero">
 
-    <button onclick="openSurprise()">
-      🎁 Open Your Surprise
-    </button>
+  <div class="hero-line"></div>
+
+  <p class="eyebrow reveal">A PRIVATE CELEBRATION</p>
+
+  <h1 class="hero-title reveal">
+    For
+    <span>Zahra</span>
+  </h1>
+
+  <p class="hero-description reveal">
+    Some people deserve more than a simple birthday wish.
+    They deserve a whole little world made just for them.
+  </p>
+
+  <a href="birthday.html" class="luxury-button reveal">
+    <span>Enter the Celebration</span>
+    <b>↗</b>
+  </a>
+
+  <div class="hero-bottom reveal">
+    <span>01 / 07</span>
+    <span>Made with love</span>
   </div>
-</section>
 
+</main>
 
-<!-- SURPRISE -->
-<section class="screen" id="surprise">
-  <div class="card">
-
-    <div class="heart">🎂✨💗</div>
-
-    <h1>Happy Birthday, <span class="gold">Zahra</span>!</h1>
-
-    <p>
-      May Allah bless you with a life filled with peace,
-      happiness, barakah, beautiful memories and endless reasons
-      to smile. 🤲
-    </p>
-
-    <h2>💌 A Heartfelt Message</h2>
-
-    <div class="wishes">
-
-      <p>
-        Dear Zahra, on your special day, I pray that every year
-        of your life brings you closer to everything your heart
-        genuinely wishes for.
-      </p>
-
-      <p>
-        May Allah protect your heart from every sadness,
-        remove every difficulty from your path, and replace every
-        worry with peace and every tear with a beautiful reason
-        to smile.
-      </p>
-
-      <p>
-        May Allah grant you good health, a peaceful heart,
-        sincere people around you, success in your dreams,
-        and happiness that stays long after the birthday candles
-        have gone out. 🤍
-      </p>
-
-      <p>
-        May every dua you whisper quietly be answered at the
-        most beautiful time. May Allah open doors for you that
-        you never imagined and guide you toward what is best
-        for your dunya and akhirah.
-      </p>
-
-      <p>
-        May your future be brighter than your past, your heart
-        lighter than yesterday, and your coming years filled
-        with beautiful surprises, meaningful friendships,
-        unforgettable memories and countless blessings.
-      </p>
-
-      <p>
-        And whenever life becomes difficult, may Allah give you
-        sabr, strength and tawakkul to keep going, knowing that
-        something beautiful can always be waiting beyond the
-        difficult chapter. 🤲✨
-      </p>
-
-      <p>
-        May you always remain surrounded by people who genuinely
-        value you, respect you, pray for you and celebrate your
-        happiness without jealousy.
-      </p>
-
-      <p>
-        May Allah keep your smile beautiful, your heart soft,
-        your intentions pure and your soul peaceful.
-      </p>
-
-      <p class="gold">
-        Ameen ya Rabb-ul-Alameen. 🤲
-      </p>
-
-    </div>
-
-    <h2>📸 Beautiful Memories</h2>
-
-    <div class="gallery">
-
-      <img src="assets/zahra-1.jpg" alt="Zahra">
-      <img src="assets/zahra-2.jpg" alt="Zahra">
-      <img src="assets/zahra-3.jpg" alt="Zahra">
-      <img src="assets/zahra-4.jpg" alt="Zahra">
-      <img src="assets/zahra-5.jpg" alt="Zahra">
-      <img src="assets/zahra-6.jpg" alt="Zahra">
-
-    </div>
-
-    <h2>🤲 Birthday Duas</h2>
-
-    <div class="wishes">
-
-      <p>
-        May Allah bless every step you take. 🤍
-      </p>
-
-      <p>
-        May He protect you from every harm, sadness and
-        disappointment.
-      </p>
-
-      <p>
-        May He grant you halal happiness, beautiful opportunities,
-        success and rizq filled with barakah.
-      </p>
-
-      <p>
-        May your dreams become realities in ways more beautiful
-        than you imagined.
-      </p>
-
-      <p>
-        May Allah give you a peaceful heart and a life you can
-        look back on with gratitude.
-      </p>
-
-      <p class="gold">
-        Ameen. Ameen. Ameen. 🤲✨
-      </p>
-
-    </div>
-
-    <h2>🌷 Once Again...</h2>
-
-    <p>
-      Happy Birthday, Zahra! 🎂💗
-    </p>
-
-    <p>
-      May this new chapter of your life be your most beautiful
-      one yet.
-    </p>
-
-    <p class="gold">
-      Keep smiling. Keep shining. Keep making beautiful memories. ✨
-    </p>
-
-    <div class="heart">💗🎂💗</div>
-
-  </div>
-</section>
-
-
-<script>
-function openSurprise() {
-  document.getElementById("opening").style.display = "none";
-  document.getElementById("surprise").style.display = "flex";
-
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth"
-  });
-
-  confetti();
-}
-
-function confetti() {
-  for (let i = 0; i < 80; i++) {
-
-    const piece = document.createElement("div");
-
-    piece.style.position = "fixed";
-    piece.style.width = "8px";
-    piece.style.height = "8px";
-    piece.style.left = Math.random() * 100 + "vw";
-    piece.style.top = "-10px";
-    piece.style.background =
-      ["#f6d58a","#e9a8ba","#ffffff","#d99b5f"]
-      [Math.floor(Math.random() * 4)];
-
-    piece.style.zIndex = "9999";
-    piece.style.pointerEvents = "none";
-
-    document.body.appendChild(piece);
-
-    const animation = piece.animate(
-      [
-        { transform: "translateY(0) rotate(0deg)", opacity: 1 },
-        {
-          transform:
-            "translateY(110vh) rotate(" +
-            (Math.random() * 720) +
-            "deg)",
-          opacity: 0
-        }
-      ],
-      {
-        duration: 2000 + Math.random() * 2500,
-        easing: "ease-out"
-      }
-    );
-
-    animation.onfinish = () => piece.remove();
-  }
-}
-</script>
-
+<script src="script.js"></script>
 </body>
 </html>
