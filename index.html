@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#7b1830" />
+  <meta name="description" content="A heartfelt birthday surprise made especially for Zahra." />
+  <title>For Zahra — Happy Birthday 🤍</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="petal-layer" aria-hidden="true"></div>
+  <canvas id="confetti" aria-hidden="true"></canvas>
+
+  <section id="opening" class="opening-screen">
+    <div class="opening-glow"></div>
+    <div class="opening-card">
+      <span class="eyebrow">A little surprise, made with love</span>
+      <div class="mini-crown">✦</div>
+      <h1>For <em>Zahra</em></h1>
+      <p>There is a whole little world waiting inside this page just for you.</p>
+      <button id="openBtn" class="gold-btn">
+        <span>Open Your Surprise</span><b>♡</b>
+      </button>
+      <small>Turn your sound on if you add your own birthday song 🎧</small>
+    </div>
+  </section>
+
+  <main id="main" class="site hidden">
+    <header class="hero section">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">Today is beautifully yours</span>
+        <h2>Happy Birthday,<br><em>Zahra</em> 🤍</h2>
+        <p class="hero-subtitle">
+          May this new chapter of your life be softer, brighter, kinder,
+          and filled with everything your heart quietly prays for.
+        </p>
+        <div class="hero-actions">
+          <a href="#letter" class="outline-btn">Read Your Letter ↓</a>
+          <button id="musicBtn" class="music-btn" type="button">♫ Birthday Ambience</button>
+        </div>
+      </div>
+
+      <div class="hero-photo-wrap reveal">
+        <div class="halo"></div>
+        <div class="photo-frame">
+          <img src="assets/zahra-1.jpg" alt="Zahra smiling in a red outfit" />
+        </div>
+        <div class="floating-note note-one">♡</div>
+        <div class="floating-note note-two">✦</div>
+        <div class="floating-note note-three">❀</div>
+      </div>
+    </header>
+
+    <section class="intro-strip">
+      <div>♡</div>
+      <p>One beautiful soul. Countless reasons to celebrate her.</p>
+      <div>♡</div>
+    </section>
+
+    <section id="letter" class="section letter-section">
+      <div class="section-heading reveal">
+        <span class="eyebrow">A letter from the heart</span>
+        <h3>For Someone Truly Special</h3>
+        <span class="divider">✦</span>
+      </div>
+
+      <article class="letter-card reveal">
+        <div class="letter-top">
+          <span>Dear Zahra,</span>
+          <span>With duas &amp; love ♡</span>
+        </div>
+
+        <div class="letter-text">
+          <p>
+            Today is more than just another date on the calendar. It is a reminder
+            that Allah chose this day to bring <strong>you</strong> into this world —
+            and that alone is something worth celebrating with a full heart.
+          </p>
+          <p>
+            On your birthday, I pray that Allah surrounds you with people who are
+            sincere, hearts that are gentle with yours, and moments that make you
+            quietly grateful to be alive. May He protect your heart from every
+            sadness you never speak about and replace every difficult chapter with
+            something more beautiful than you imagined.
+          </p>
+          <p>
+            May Allah put <strong>barakah</strong> in your age, your health, your
+            dreams, your studies, your work, your relationships, your home, and
+            every step you take toward your future. May He open doors for you that
+            you never knew existed and close every door that would bring you harm.
+          </p>
+          <p>
+            I pray that the wishes you keep quietly inside your heart are answered
+            at exactly the right time. May your duas come back to you as beautiful
+            realities, and may you always have the sabr to wait for what is written
+            for you and the tawakkul to trust Allah's timing.
+          </p>
+          <p>
+            May you never have to beg for the love, respect, loyalty, or kindness
+            you deserve. May the people around you celebrate your happiness,
+            protect your peace, and remind you of your worth whenever you forget it.
+          </p>
+          <p>
+            And whenever life feels heavy, may Allah make your heart strong without
+            making it hard. May He give you courage without taking away your
+            softness, confidence without taking away your humility, and success
+            without taking away your peace.
+          </p>
+          <p>
+            I hope this year gives you more reasons to smile, more memories to keep,
+            more places to see, more dreams to chase, more laughter that hurts your
+            cheeks, and more evenings where you look back and think,
+            <em>“Alhamdulillah, I made it here.”</em>
+          </p>
+          <p>
+            Please keep being the beautiful person you are. Keep your heart kind.
+            Keep your standards high. Keep believing that good things can find you.
+            And most importantly, keep making dua — because Allah can turn the
+            smallest hope into a life you never imagined.
+          </p>
+          <p class="final-paragraph">
+            <strong>May Allah protect you, bless you, guide you, forgive you,
+            increase you in goodness, grant you halal happiness, give you a long
+            life filled with khair, and make every coming year of your life better
+            than the one before it.</strong>
+          </p>
+          <p class="signature">Happy Birthday, Zahra. 🤍<br><span>May your life always be written with beautiful chapters.</span></p>
+        </div>
+      </article>
+    </section>
+
+    <section class="wishes section">
+      <div class="section-heading reveal">
+        <span class="eyebrow">A pocket full of prayers</span>
+        <h3>Things I Wish For You</h3>
+        <span class="divider">✦</span>
+      </div>
+
+      <div class="wish-grid">
+        <div class="wish-card reveal"><span>☾</span><h4>Peace</h4><p>May Allah give your heart a peace that no circumstance can take away.</p></div>
+        <div class="wish-card reveal"><span>✦</span><h4>Success</h4><p>May every sincere effort of yours turn into something meaningful and beautiful.</p></div>
+        <div class="wish-card reveal"><span>♡</span><h4>Love</h4><p>May you always be surrounded by sincere, respectful and kind hearts.</p></div>
+        <div class="wish-card reveal"><span>❀</span><h4>Happiness</h4><p>May little joys find you on ordinary days and make them extraordinary.</p></div>
+        <div class="wish-card reveal"><span>☁</span><h4>Protection</h4><p>May Allah keep you safe from hidden harm, heartbreak and every bad intention.</p></div>
+        <div class="wish-card reveal"><span>∞</span><h4>Barakah</h4><p>May there be barakah in your time, health, rizq, knowledge and every dream.</p></div>
+        <div class="wish-card reveal"><span>✧</span><h4>Answered Duas</h4><p>May the duas you whisper when nobody is listening become your happiest realities.</p></div>
+        <div class="wish-card reveal"><span>🕊</span><h4>A Beautiful Future</h4><p>May what is ahead of you be gentler, brighter and better than what is behind you.</p></div>
+      </div>
+    </section>
+
+    <section class="gallery section">
+      <div class="section-heading reveal">
+        <span class="eyebrow">Little pieces of a beautiful story</span>
+        <h3>Her Moments 📸</h3>
+        <span class="divider">✦</span>
+      </div>
+
+      <div class="gallery-grid">
+        <button class="gallery-item tall reveal" data-full="assets/zahra-1.jpg"><img src="assets/zahra-1.jpg" alt="Zahra in a red hijab surrounded by greenery"></button>
+        <button class="gallery-item reveal" data-full="assets/zahra-2.jpg"><img src="assets/zahra-2.jpg" alt="Zahra in a soft pink outfit outdoors"></button>
+        <button class="gallery-item reveal" data-full="assets/zahra-3.jpg"><img src="assets/zahra-3.jpg" alt="Zahra in a red outfit in front of a gate"></button>
+        <button class="gallery-item wide reveal" data-full="assets/zahra-4.jpg"><img src="assets/zahra-4.jpg" alt="Zahra wearing a light shawl"></button>
+        <button class="gallery-item reveal" data-full="assets/zahra-5.jpg"><img src="assets/zahra-5.jpg" alt="Zahra smiling in a red outfit outdoors"></button>
+        <button class="gallery-item tall reveal" data-full="assets/zahra-6.jpg"><img src="assets/zahra-6.jpg" alt="Zahra holding a flower in a red outfit"></button>
+      </div>
+      <p class="gallery-hint">Tap any photo to see it beautifully ✨</p>
+    </section>
+
+    <section class="memory section">
+      <div class="memory-card reveal">
+        <span class="eyebrow">A little reminder</span>
+        <h3>Some people make ordinary moments feel special.</h3>
+        <p>
+          May you collect a lifetime of moments that feel like this —
+          simple, warm, unforgettable, and worth keeping close to your heart.
+        </p>
+        <div class="memory-line">♡ &nbsp; ✦ &nbsp; ❀ &nbsp; ✦ &nbsp; ♡</div>
+      </div>
+    </section>
+
+    <section class="surprise section">
+      <div class="surprise-inner reveal">
+        <span class="eyebrow">There is one more thing...</span>
+        <h3>Open Your Final Surprise 🎁</h3>
+        <p>Because one birthday message could never be enough.</p>
+        <button id="surpriseBtn" class="gold-btn large">Open My Last Message <b>♡</b></button>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-flower">❀</div>
+      <p>Made especially for <strong>Zahra</strong> with duas, warmth &amp; love.</p>
+      <small>Happy Birthday, beautiful soul. 🤍</small>
+    </footer>
+  </main>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button id="closeLightbox" class="close-btn" aria-label="Close photo">×</button>
+    <img id="lightboxImg" src="" alt="" />
+    <div class="lightbox-caption">A beautiful moment ✦</div>
+  </div>
+
+  <div id="finalModal" class="modal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <article class="final-card">
+      <button id="closeModal" class="close-modal" aria-label="Close">×</button>
+      <div class="final-sparkle">✦</div>
+      <span class="eyebrow">Just one last dua</span>
+      <h3>Zahra, may Allah write the most beautiful future for you. 🤍</h3>
+      <p>
+        May every year ahead bring you closer to the person you dream of becoming.
+        May your heart remain soft, your faith remain strong, your smile remain
+        genuine, and your path remain full of khair.
+      </p>
+      <p>
+        May Allah grant you halal happiness, beautiful friendships, sincere love,
+        endless protection, good health, peaceful nights, successful mornings,
+        fulfilling work, abundant rizq, and a home filled with sakinah.
+      </p>
+      <p>
+        And when you look back at this year one day, I pray you say:
+        <strong>“Alhamdulillah — Allah gave me more than I asked for.”</strong>
+      </p>
+      <div class="dua">آمين يا رب العالمين 🤲🏻</div>
+      <div class="modal-signature">Happy Birthday, Zahra ♡</div>
+    </article>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
